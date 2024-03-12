@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica de Nutrição</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="principal.html#principal">Página Principal</a></li>
+                <li><a href="sobre.html#sobre">Sobre Nós</a></li>
+                <li><a href="agendamento.html#agendamento">Horários de Atendimento</a></li>
+                <li><a href="contato.html#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header class="principal">
+                    <h1>Clínica de Nutrição Pediatrica</h1>
+                    <img src="Arquivos/contato.png" alt="uma imagem em desenho de uma mulher com uma prancheta na mão e um quadro repleto de frutas"
+                    width="150">
+                </header>
+            </div>
+    
+            <div class="content">
+                <h2 class="contato">Como nos contatar e localizar</h2>
+                <ul>
+                    <li><a href="#contato_tel">Formas de contato</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+                <h3 id="contato_tel">Formas de contato<img src="Arquivos/formas-contato.png" alt="imagem das formas de contatos existentes" width="50" align="center"></h3>
+                <p><strong>Telefone: </strong>(85) 3101-4151</p>
+                <p><strong>Whatsapp: </strong>(85) 99999-9999</p>
+                <p><strong>e-mail: </strong>xxxxxx@corporativo.com</p>
+                <h3 id="localizacao">Como nos achar</h3>
+                <p><strong>Endereço: </strong>Av. Frei Cirilo, 3480 - Cajazeiras, Fortaleza - CE, 60840-285</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2814.977375290315!2d-38.500763861144385!3d-3.8145758015593483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74f9360c8768f%3A0x338c6e82fa5bc81b!2sHospital%20do%20Cora%C3%A7%C3%A3o%20de%20Messejana!5e0!3m2!1spt-BR!2sbr!4v1710179468555!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
+                <h4>Nos envie um contato, responderemos em breve</h4>
+                <form name="mensagem-contato" target="_blank" onsubmit="alert('Formulário enviado com Sucesso');" method="POST">
+                    <fieldset>
+                        <legend>Entre em contato conosco</legend>
+                        <label for="nome">Nome Completo: </label>
+                        <input type="text" name="nome"><br>
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email"><br>
+                        <label for="assunto">Assunto completo: </label>
+                        <input type="text" name="assunto"><br>
+                        <label for="mensagem">Mensagem: </label>
+                        <textarea name="mensagem"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+                
+            </div>
+    
+            <div class="footer">
+                <footer>
+                    <p><strong>Endereço: </strong>Av. Frei Cirilo, 3480 - Cajazeiras, Fortaleza - CE, 60840-285</p>
+                    <p><strong>Contato: </strong>(85) 3101-4151</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
